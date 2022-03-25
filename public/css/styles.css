@@ -1,0 +1,75 @@
+/* Global */
+:root {
+    --black: rgb(24, 24, 24);
+    --green: rgb(55, 158, 110);
+    --white: rgb(255, 255, 255);
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: var(--black);
+}
+button:hover {
+    cursor: pointer;
+}
+
+/* Nav */
+#nav {
+    width: 70%;
+    margin-bottom: 10%;
+}
+#nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list-item a {
+    color: var(--white);
+}
+.nav-list-item a:hover {
+    color: var(--green);
+}
+
+/* Home */
+#home-container {
+    display: flex;
+}
+#about-me {
+    width: 50%;
+    margin-left: 5%;
+}
+#name {
+    color: var(--white);
+    font-size: 3rem;
+}
+#about-me-title {
+    color: var(--green);
+}
+#see-projects-button {
+    background: var(--green);
+    color: var(--white);
+    padding: 3% 7% 3% 7%;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.1rem;
+}
+#image-container {
+    width: 50%;
+}
+
+/* Experience */
+#experience-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.experience-card {
+    padding: 0 10% 0 10%;
+    color: var(--white);
+    border: 1px solid var(--green);
+    border-radius: 20px;
+    max-width: 400px;
+}
