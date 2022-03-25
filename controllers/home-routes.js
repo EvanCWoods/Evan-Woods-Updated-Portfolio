@@ -19,6 +19,10 @@ router.get("/experience", (req, res) => {
 
 router.get("/projects", (req, res) => {
     res.render("projects");
-})
+});
+
+router.get("/about-me", (req, res) => {
+    res.render("about-me");
+});
 
 module.exports = router;

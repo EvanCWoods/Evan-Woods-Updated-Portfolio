@@ -83,6 +83,41 @@ button:hover {
 }
 .project-card {
     border: 1px solid var(--green);
-    width: 30%;
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 300px;
+    max-height: 500px;
+    height: auto;
     margin: 1%;
+    height: calc(width * 1);
+}
+
+/* About Me */
+#title {
+    font-size: 3rem;
+    color: var(--green);
+}
+#content {
+    color: var(--white);
+    margin: 0 5% 0 5%;
+}
+#technologies-container {
+    margin-top: 10%;
+}
+#tech-list-title-container {
+    background: var(--green);
+    color: var(--white);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+#tech-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tech-item img {
+    width: 80px;
+    height: 80px;
+    margin: 10%;
 }
