@@ -73,3 +73,16 @@ button:hover {
     border-radius: 20px;
     max-width: 400px;
 }
+
+/* Projects */
+#projects-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-card {
+    border: 1px solid var(--green);
+    width: 30%;
+    margin: 1%;
+}
