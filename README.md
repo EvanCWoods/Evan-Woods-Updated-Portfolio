@@ -18,6 +18,9 @@ https://opensource.org/licenses/MIT
 ## Description
 This project is my updated personal portfolio using Handlebars js and Model-View-Controller techniques. The app is hosted on Heroku and is viewable at this URL: https://evan-woods-updated-portfolio.herokuapp.com 
 
+The user is presented with a landing page on arrival at the website that allows them to navigate the site and learn more about me as a developer email
+![Landing page](./Assets/landing.png)
+
 
 ## Contribute
 This app has been finished and does not require any further development.
