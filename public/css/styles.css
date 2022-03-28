@@ -4,6 +4,9 @@
     --green: rgb(55, 158, 110);
     --white: rgb(255, 255, 255);
 }
+* {
+    box-sizing: border-box;
+}
 li {
     list-style: none;
 }
@@ -77,6 +80,7 @@ button:hover {
     border: 1px solid var(--green);
     border-radius: 20px;
     max-width: 400px;
+    margin-top: 10%;
 }
 
 /* Projects */
@@ -135,4 +139,42 @@ button:hover {
     width: 80px;
     height: 80px;
     margin: 10%;
+}
+
+/* Footer */
+#contact {
+    width: 70%;
+    margin: 0 15% 15% 15%;
+    color: white;
+    margin-top: 10%;
+}
+#contact-title {
+    border-bottom: 1px solid var(--green);
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+#contact i {
+    font-size: 3rem;
+    color: white;
+}
+#contact-link-container {
+    width: 70%;
+    margin: 5% 15% 0 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    #home-container {
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    #about-me {
+        width: 85%;
+        text-align: center;
+    }
+    #image-container {
+        width: 100%;
+        text-align: center;
+    }
 }
